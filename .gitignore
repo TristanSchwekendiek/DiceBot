@@ -1,0 +1,5 @@
+# Ignore all character profiles
+/profiles/
+
+# Environment variables
+.env

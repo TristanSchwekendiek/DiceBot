@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "player_name": "Mari",
+  "character": [
+    {
+      "passive_perception": 16,
+      "immunities": [],
+      "subrace": "Mulan",
+      "ac": 18,
+      "saving_throw_advantages": null,
+      "proficiency_bonus": "2",
+      "race": "Human",
+      "alignment": "Chaotic Good",
+      "experience": 2800,
+      "background": "Criminal",
+      "equipment": [
+        {
+          "equipment": {
+            "pouch": {
+              "id": 17592368628078,
+              "quantity": 1,
+              "equipped?": true,
+              "background-starting-equipment?": true
+            },
+            "clothes-common": {
+              "id": 17592368628074,
+              "quantity": 1,
+              "equipped?": true,
+              "background-starting-equipment?": true
+            },
+            "waterskin": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "bedroll": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "rations-1-day-": {
+              "quantity": 10,
+              "equipped?": true
+            },
+            "rope-hempen": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "amulet": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "tinderbox": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "mess-kit": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "backpack": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "crowbar": {
+              "id": 17592368628076,
+              "quantity": 1,
+              "equipped?": true,
+              "background-starting-equipment?": true
+            },
+            "torch": {
+              "quantity": 10,
+              "equipped?": true
+            }
+          },
+          "armor": {
+            "chain-mail": {
+              "quantity": 1,
+              "equipped?": true
+            },
+            "shield": {
+              "id": 17592368628123,
+              "quantity": 1,
+              "equipped?": true,
+              "class-starting-equipment?": true
+            }
+          },
+          "magic-armor": null,
+          "magic-items": null,
+          "weapons": [
+            [
+              "javelin",
+              {
+                "equipped?": true,
+                "quantity": 1
+              }
+            ],
+            [
+              "warhammer",
+              {
+                "quantity": 1,
+                "equipped?": true
+              }
+            ]
+          ],
+          "magic-weapons": []
+        }
+      ],
+      "spells": [
+        {
+          "spellcasting_fields": "TO-DO Spells. um yah... it's a nightmare to pull spells and details"
+        }
+      ],
+      "damage_resistances": [],
+      "treasure": {
+        "gp": 15,
+        "treasure": ""
+      },
+      "abilities_bonuses": [
+        {
+          "abilities": {
+            "str": 16,
+            "dex": 15,
+            "con": 16,
+            "int": 12,
+            "wis": 22,
+            "cha": 14
+          },
+          "bonuses": {
+            "str": 3,
+            "dex": 2,
+            "con": 3,
+            "int": 1,
+            "wis": 6,
+            "cha": 2
+          }
+        }
+      ],
+      "image_url": null,
+      "damage_vulnerabilities": null,
+      "proficiencies": [
+        {
+          "all": "Tool Proficiencies: Playing Card Set; Thieves' Tools\n\nWeapon Proficiencies: Simple\n\nArmor Proficiencies: Light; Medium; Shields\n\nLanguage Proficiencies: Common; Primordial",
+          "tool": "Playing Card Set; Thieves' Tools",
+          "weapon": "Simple",
+          "armor": "Light; Medium; Shields",
+          "language": "Common; Primordial"
+        }
+      ],
+      "skills": {
+        "religion": "+3",
+        "animal-handling-check": false,
+        "persuasion": "+4",
+        "sleight-of-hand-check": false,
+        "religion-check": true,
+        "nature-check": false,
+        "investigation": "+1",
+        "performance-check": false,
+        "acrobatics": "+2",
+        "performance": "+2",
+        "perception": "+6",
+        "sleight-of-hand": "+2",
+        "medicine-check": false,
+        "investigation-check": false,
+        "survival": "+6",
+        "history": "+1",
+        "history-check": false,
+        "animal-handling": "+6",
+        "nature": "+1",
+        "deception": "+4",
+        "intimidation": "+2",
+        "arcana": "+1",
+        "athletics": "+3",
+        "perception-check": false,
+        "intimidation-check": false,
+        "survival-check": false,
+        "insight-check": false,
+        "stealth-check": true,
+        "deception-check": true,
+        "athletics-check": false,
+        "persuasion-check": true,
+        "arcana-check": false,
+        "acrobatics-check": false,
+        "insight": "+6",
+        "medicine": "+6",
+        "stealth": "+4"
+      },
+      "characteristics": [
+        {
+          "factions_and_organizations": "Codex",
+          "faction_image_url": null,
+          "eyes": null,
+          "age": "22",
+          "sex": "Female",
+          "ideals": null,
+          "speed": 30,
+          "personality-trait-2": "",
+          "bonds": null,
+          "personality_trait_1": "",
+          "weight": "225",
+          "hair": null,
+          "skin": null,
+          "height": "6'7\"",
+          "character_backstory": "As a child, Poka dreamed of being an accountant in the Ursal Republic.  After spending her post secondary years studying in university, she graduated and desperately looked for a job.  The only one she position she could find was for the Epsilon arm of Codex.  Despite the job interview allegedly being for an accounting position, her massive height, freakish strength and powerful magical abilities lead to her getting sent to the Delta arm, where she would be used as muscle to aid the other arms.\n\nShe is also a very effective cook, learning a variety of different recipes while in University.  Her dormitory was next to a monster wet market.",
+          "flaws": null
+        }
+      ],
+      "save_bonuses": {
+        "str": 3,
+        "dex": 2,
+        "con": 3,
+        "int": 1,
+        "wis": 8,
+        "cha": 4
+      },
+      "character_name": "Poka Dought",
+      "attacks": {
+        "attacks-and-spellcasting": "Number of Attacks: 1\n",
+        "weapon-name-1": "Javelin",
+        "weapon-attack-bonus-1": "+5",
+        "weapon-damage-1": "1d6+3 piercing",
+        "weapon-name-2": "Warhammer",
+        "weapon-attack-bonus-2": "+3",
+        "weapon-damage-2": "1d8+3 bludgeoning"
+      },
+      "hp": [
+        {
+          "hp_current": null,
+          "hp_max": 32
+        }
+      ],
+      "initiative_bonus": 2,
+      "classes": {
+        "cleric": {
+          "class-name": "Cleric",
+          "class-level": 4,
+          "hit-die": 8,
+          "subclass": "peace-domain",
+          "subclass-name": "Peace Domain"
+        }
+      },
+      "condition_immunities": [],
+      "traits": {
+        "features-and-traits-2": "\n\n---------------Actions--------------\nChannel Divinity: Turn Undead. Undead within 30 feet must make a DC 16 Wisdom save or be turned for 1 min. or until damaged.\n\n-----------Other Traits------------\nChannel Divinity. Channel divine power using Turn Undead or one of your domain Channel Divinity options. (use once/rest).\n\nChannel Divinity: Balm of Peace. You can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to 2d6 + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action.\n\nChef. Time spent mastering the culinary arts has paid off, granting you the following benefits:\n\n    • Increase your Constitution or Wisdom score by 1, to a maximum of 20.\n    • You gain proficiency with cook’s utensils if you don’t already have it.\n    • As part of a short rest, you can cook special food, provided you have ingredients and cook’s utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra 1d8 hit points.\n    • With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus.\n\nCriminal Contact. You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you. .\n\nEmboldening Bond. You can forge an empowering bond among people who are at peace with one another. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nImplement of Peace. You gain proficiency in the Insight, Performance, or Persuasion skill (your choice)."
+      }
+    }
+  ]
+}
