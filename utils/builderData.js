@@ -26,11 +26,37 @@ function scoreClassRecord(record) {
   return score;
 }
 
+function scoreSubclassRecord(record) {
+  let score = 0;
+
+  if ((record?.edition || "").toLowerCase() === "classic") score += 100;
+  if ((record?.source || "").toUpperCase() === "PHB") score += 75;
+  if (record?.srd) score += 25;
+  if (record?.basicRules) score += 20;
+
+  return score;
+}
+
 function chooseBestClassRecord(records) {
   return records.reduce((best, candidate) => {
     if (!best) return candidate;
     return scoreClassRecord(candidate) > scoreClassRecord(best) ? candidate : best;
   }, null);
+}
+
+function dedupeSubclassRecords(records) {
+  const byName = new Map();
+
+  for (const record of records) {
+    const key = normalizeName(record.name);
+    const existing = byName.get(key);
+
+    if (!existing || scoreSubclassRecord(record) > scoreSubclassRecord(existing)) {
+      byName.set(key, record);
+    }
+  }
+
+  return [...byName.values()];
 }
 
 function summarizeClassFile(fileName) {
@@ -43,13 +69,20 @@ function summarizeClassFile(fileName) {
   }
 
   const classKey = normalizeName(classRecord.name);
-  const subclasses = (data.subclass || [])
-    .filter((subclass) => normalizeName(subclass.className) === classKey)
+  const classSourceKey = normalizeName(classRecord.source || "");
+  const subclassRecords = (data.subclass || [])
+    .filter((subclass) => {
+      if (normalizeName(subclass.className) !== classKey) return false;
+      if (!subclass.classSource || !classSourceKey) return true;
+      return normalizeName(subclass.classSource) === classSourceKey;
+    });
+  const subclasses = dedupeSubclassRecords(subclassRecords)
     .map((subclass) => ({
       name: subclass.name,
       shortName: subclass.shortName || subclass.name,
       source: subclass.source || "",
       className: subclass.className || classRecord.name,
+      classSource: subclass.classSource || classRecord.source || "",
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 

@@ -388,6 +388,7 @@ function seedDefaults() {
   }
 
   syncClassDefaults();
+  normalizeSubclassState();
   state.experience = Number(state.experience ?? XP_THRESHOLDS[state.level] ?? 0);
 }
 
@@ -446,12 +447,15 @@ function renderClassSelect() {
 
 function renderSubclassSelect() {
   const cls = getSelectedClass();
-  const subclasses = cls?.subclasses || [];
+  const subclasses = getSubclassesForClass(cls);
+  normalizeSubclassState(cls, subclasses);
+
   dom.subclassSelect.innerHTML = [
     '<option value="">None</option>',
     ...subclasses.map((subclass) => `<option value="${escapeAttr(subclass.name)}">${escapeHtml(subclass.name)}</option>`),
   ].join("");
   dom.subclassSelect.value = state.subclassName || "";
+  dom.subclassSelect.disabled = subclasses.length === 0;
 }
 
 function renderRaceSelect() {
@@ -796,6 +800,7 @@ function buildProfile() {
   const subrace = getSelectedSubrace();
   const abilities = getAbilityScores();
   const classKey = normalizeName(cls?.name || "");
+  const subclassName = getSelectedSubclassName();
   const mode = cls?.spellcastingMode || "none";
   const selectedSpells = sortSpellsByLevel(state.spells);
   const preparedSpells = mode === "prepared" || mode === "spellbook" ? selectedSpells : [];
@@ -820,7 +825,7 @@ function buildProfile() {
   if (cls && mode !== "none") {
     spellcastingByClass[classKey] = {
       className: cls.name,
-      subclass: state.subclassName || "",
+      subclass: subclassName,
       mode,
       preparedLimit: 0,
       cantripsKnown: 0,
@@ -840,14 +845,14 @@ function buildProfile() {
     alignment: state.alignment || "",
     background: state.background || "",
     class: cls?.name || "",
-    subclass: state.subclassName || "",
+    subclass: subclassName,
     level,
     hitDie: Number(cls?.hitDie || 0),
     classes: cls
       ? [
           {
             name: cls.name,
-            subclass: state.subclassName || "",
+            subclass: subclassName,
             level,
             hitDie: Number(cls.hitDie || 0),
           },
@@ -1213,6 +1218,38 @@ function getSelectedClass() {
   return findClass(state.className);
 }
 
+function getSubclassesForClass(cls) {
+  if (!cls) return [];
+
+  const seen = new Set();
+  return (cls.subclasses || [])
+    .filter((subclass) => {
+      if (!subclass?.name) return false;
+      if (subclass.className && normalizeName(subclass.className) !== normalizeName(cls.name)) return false;
+      if (subclass.classSource && cls.source && normalizeName(subclass.classSource) !== normalizeName(cls.source)) return false;
+
+      const key = normalizeName(subclass.name);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+function getSelectedSubclassName() {
+  const cls = getSelectedClass();
+  const subclasses = getSubclassesForClass(cls);
+  const match = subclasses.find((subclass) => normalizeName(subclass.name) === normalizeName(state.subclassName));
+  return match?.name || "";
+}
+
+function normalizeSubclassState(cls = getSelectedClass(), subclasses = getSubclassesForClass(cls)) {
+  if (!state.subclassName) return;
+
+  const match = subclasses.find((subclass) => normalizeName(subclass.name) === normalizeName(state.subclassName));
+  state.subclassName = match?.name || "";
+}
+
 function findClass(name) {
   return data.classes.find((cls) => normalizeName(cls.name) === normalizeName(name)) || null;
 }
@@ -1357,7 +1394,7 @@ function getAvailableSpells() {
   const cls = getSelectedClass();
   if (!cls || cls.spellcastingMode === "none") return [];
 
-  return data.spells.filter((spell) => spellBelongsToClass(spell, cls.name, state.subclassName));
+  return data.spells.filter((spell) => spellBelongsToClass(spell, cls.name, getSelectedSubclassName()));
 }
 
 function spellBelongsToClass(spell, className, subclassName) {

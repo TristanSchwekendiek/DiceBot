@@ -123,79 +123,29 @@
           "name": "Alchemist",
           "shortName": "Alchemist",
           "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Alchemist",
-          "shortName": "Alchemist",
-          "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Alchemist",
-          "shortName": "Alchemist",
-          "source": "EFA",
-          "className": "Artificer"
+          "className": "Artificer",
+          "classSource": "TCE"
         },
         {
           "name": "Armorer",
           "shortName": "Armorer",
           "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Armorer",
-          "shortName": "Armorer",
-          "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Armorer",
-          "shortName": "Armorer",
-          "source": "EFA",
-          "className": "Artificer"
+          "className": "Artificer",
+          "classSource": "TCE"
         },
         {
           "name": "Artillerist",
           "shortName": "Artillerist",
           "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Artillerist",
-          "shortName": "Artillerist",
-          "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Artillerist",
-          "shortName": "Artillerist",
-          "source": "EFA",
-          "className": "Artificer"
+          "className": "Artificer",
+          "classSource": "TCE"
         },
         {
           "name": "Battle Smith",
           "shortName": "Battle Smith",
           "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Battle Smith",
-          "shortName": "Battle Smith",
-          "source": "TCE",
-          "className": "Artificer"
-        },
-        {
-          "name": "Battle Smith",
-          "shortName": "Battle Smith",
-          "source": "EFA",
-          "className": "Artificer"
-        },
-        {
-          "name": "Cartographer",
-          "shortName": "Cartographer",
-          "source": "EFA",
-          "className": "Artificer"
+          "className": "Artificer",
+          "classSource": "TCE"
         }
       ]
     },
@@ -288,133 +238,64 @@
           "name": "Path of the Ancestral Guardian",
           "shortName": "Ancestral Guardian",
           "source": "XGE",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Ancestral Guardian",
-          "shortName": "Ancestral Guardian",
-          "source": "XGE",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of the Battlerager",
           "shortName": "Battlerager",
           "source": "SCAG",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Battlerager",
-          "shortName": "Battlerager",
-          "source": "SCAG",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of the Beast",
           "shortName": "Beast",
           "source": "TCE",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Beast",
-          "shortName": "Beast",
-          "source": "TCE",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of the Berserker",
           "shortName": "Berserker",
           "source": "PHB",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Berserker",
-          "shortName": "Berserker",
-          "source": "PHB",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Berserker",
-          "shortName": "Berserker",
-          "source": "XPHB",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of the Giant",
           "shortName": "Giant",
           "source": "BGG",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Giant",
-          "shortName": "Giant",
-          "source": "BGG",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of the Storm Herald",
           "shortName": "Storm Herald",
           "source": "XGE",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Storm Herald",
-          "shortName": "Storm Herald",
-          "source": "XGE",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of the Totem Warrior",
           "shortName": "Totem Warrior",
           "source": "PHB",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Totem Warrior",
-          "shortName": "Totem Warrior",
-          "source": "PHB",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Wild Heart",
-          "shortName": "Wild Heart",
-          "source": "XPHB",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the World Tree",
-          "shortName": "World Tree",
-          "source": "XPHB",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of the Zealot",
           "shortName": "Zealot",
           "source": "XGE",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Zealot",
-          "shortName": "Zealot",
-          "source": "XGE",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of the Zealot",
-          "shortName": "Zealot",
-          "source": "XPHB",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         },
         {
           "name": "Path of Wild Magic",
           "shortName": "Wild Magic",
           "source": "TCE",
-          "className": "Barbarian"
-        },
-        {
-          "name": "Path of Wild Magic",
-          "shortName": "Wild Magic",
-          "source": "TCE",
-          "className": "Barbarian"
+          "className": "Barbarian",
+          "classSource": "PHB"
         }
       ]
     },
@@ -554,127 +435,57 @@
           "name": "College of Creation",
           "shortName": "Creation",
           "source": "TCE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Creation",
-          "shortName": "Creation",
-          "source": "TCE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Dance",
-          "shortName": "Dance",
-          "source": "XPHB",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         },
         {
           "name": "College of Eloquence",
           "shortName": "Eloquence",
           "source": "TCE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Eloquence",
-          "shortName": "Eloquence",
-          "source": "TCE",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         },
         {
           "name": "College of Glamour",
           "shortName": "Glamour",
           "source": "XGE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Glamour",
-          "shortName": "Glamour",
-          "source": "XGE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Glamour",
-          "shortName": "Glamour",
-          "source": "XPHB",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         },
         {
           "name": "College of Lore",
           "shortName": "Lore",
           "source": "PHB",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Lore",
-          "shortName": "Lore",
-          "source": "PHB",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Lore",
-          "shortName": "Lore",
-          "source": "XPHB",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         },
         {
           "name": "College of Spirits",
           "shortName": "Spirits",
           "source": "VRGR",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Spirits",
-          "shortName": "Spirits",
-          "source": "VRGR",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         },
         {
           "name": "College of Swords",
           "shortName": "Swords",
           "source": "XGE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Swords",
-          "shortName": "Swords",
-          "source": "XGE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of the Moon",
-          "shortName": "Moon",
-          "source": "FRHoF",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         },
         {
           "name": "College of Valor",
           "shortName": "Valor",
           "source": "PHB",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Valor",
-          "shortName": "Valor",
-          "source": "PHB",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Valor",
-          "shortName": "Valor",
-          "source": "XPHB",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         },
         {
           "name": "College of Whispers",
           "shortName": "Whispers",
           "source": "XGE",
-          "className": "Bard"
-        },
-        {
-          "name": "College of Whispers",
-          "shortName": "Whispers",
-          "source": "XGE",
-          "className": "Bard"
+          "className": "Bard",
+          "classSource": "PHB"
         }
       ]
     },
@@ -802,259 +613,127 @@
           "name": "Ambition Domain (PSA)",
           "shortName": "Ambition (PSA)",
           "source": "PSA",
-          "className": "Cleric"
-        },
-        {
-          "name": "Ambition Domain (PSA)",
-          "shortName": "Ambition (PSA)",
-          "source": "PSA",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Arcana Domain",
           "shortName": "Arcana",
           "source": "SCAG",
-          "className": "Cleric"
-        },
-        {
-          "name": "Arcana Domain",
-          "shortName": "Arcana",
-          "source": "SCAG",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Death Domain",
           "shortName": "Death",
           "source": "DMG",
-          "className": "Cleric"
-        },
-        {
-          "name": "Death Domain",
-          "shortName": "Death",
-          "source": "DMG",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Forge Domain",
           "shortName": "Forge",
           "source": "XGE",
-          "className": "Cleric"
-        },
-        {
-          "name": "Forge Domain",
-          "shortName": "Forge",
-          "source": "XGE",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Grave Domain",
           "shortName": "Grave",
           "source": "XGE",
-          "className": "Cleric"
-        },
-        {
-          "name": "Grave Domain",
-          "shortName": "Grave",
-          "source": "XGE",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Knowledge Domain",
           "shortName": "Knowledge",
           "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Knowledge Domain",
-          "shortName": "Knowledge",
-          "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Knowledge Domain",
-          "shortName": "Knowledge",
-          "source": "FRHoF",
-          "className": "Cleric"
-        },
-        {
-          "name": "Knowledge Domain (PSA)",
-          "shortName": "Knowledge (PSA)",
-          "source": "PSA",
-          "className": "Cleric"
-        },
-        {
-          "name": "Knowledge Domain (PSA)",
-          "shortName": "Knowledge (PSA)",
-          "source": "PSA",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Life Domain",
           "shortName": "Life",
           "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Life Domain",
-          "shortName": "Life",
-          "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Life Domain",
-          "shortName": "Life",
-          "source": "XPHB",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Light Domain",
           "shortName": "Light",
           "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Light Domain",
-          "shortName": "Light",
-          "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Light Domain",
-          "shortName": "Light",
-          "source": "XPHB",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Nature Domain",
           "shortName": "Nature",
           "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Nature Domain",
-          "shortName": "Nature",
-          "source": "PHB",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Order Domain",
           "shortName": "Order",
           "source": "TCE",
-          "className": "Cleric"
-        },
-        {
-          "name": "Order Domain",
-          "shortName": "Order",
-          "source": "TCE",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Peace Domain",
           "shortName": "Peace",
           "source": "TCE",
-          "className": "Cleric"
-        },
-        {
-          "name": "Peace Domain",
-          "shortName": "Peace",
-          "source": "TCE",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Solidarity Domain (PSA)",
           "shortName": "Solidarity (PSA)",
           "source": "PSA",
-          "className": "Cleric"
-        },
-        {
-          "name": "Solidarity Domain (PSA)",
-          "shortName": "Solidarity (PSA)",
-          "source": "PSA",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Strength Domain (PSA)",
           "shortName": "Strength (PSA)",
           "source": "PSA",
-          "className": "Cleric"
-        },
-        {
-          "name": "Strength Domain (PSA)",
-          "shortName": "Strength (PSA)",
-          "source": "PSA",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Tempest Domain",
           "shortName": "Tempest",
           "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Tempest Domain",
-          "shortName": "Tempest",
-          "source": "PHB",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Trickery Domain",
           "shortName": "Trickery",
           "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Trickery Domain",
-          "shortName": "Trickery",
-          "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "Trickery Domain",
-          "shortName": "Trickery",
-          "source": "XPHB",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Twilight Domain",
           "shortName": "Twilight",
           "source": "TCE",
-          "className": "Cleric"
-        },
-        {
-          "name": "Twilight Domain",
-          "shortName": "Twilight",
-          "source": "TCE",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "War Domain",
           "shortName": "War",
           "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "War Domain",
-          "shortName": "War",
-          "source": "PHB",
-          "className": "Cleric"
-        },
-        {
-          "name": "War Domain",
-          "shortName": "War",
-          "source": "XPHB",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         },
         {
           "name": "Zeal Domain (PSA)",
           "shortName": "Zeal (PSA)",
           "source": "PSA",
-          "className": "Cleric"
-        },
-        {
-          "name": "Zeal Domain (PSA)",
-          "shortName": "Zeal (PSA)",
-          "source": "PSA",
-          "className": "Cleric"
+          "className": "Cleric",
+          "classSource": "PHB"
         }
       ]
     },
@@ -1186,109 +865,50 @@
           "name": "Circle of Dreams",
           "shortName": "Dreams",
           "source": "XGE",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of Dreams",
-          "shortName": "Dreams",
-          "source": "XGE",
-          "className": "Druid"
+          "className": "Druid",
+          "classSource": "PHB"
         },
         {
           "name": "Circle of Spores",
           "shortName": "Spores",
           "source": "TCE",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of Spores",
-          "shortName": "Spores",
-          "source": "TCE",
-          "className": "Druid"
+          "className": "Druid",
+          "classSource": "PHB"
         },
         {
           "name": "Circle of Stars",
           "shortName": "Stars",
           "source": "TCE",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of Stars",
-          "shortName": "Stars",
-          "source": "TCE",
-          "className": "Druid"
+          "className": "Druid",
+          "classSource": "PHB"
         },
         {
           "name": "Circle of the Land",
           "shortName": "Land",
           "source": "PHB",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of the Land",
-          "shortName": "Land",
-          "source": "PHB",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of the Land",
-          "shortName": "Land",
-          "source": "XPHB",
-          "className": "Druid"
+          "className": "Druid",
+          "classSource": "PHB"
         },
         {
           "name": "Circle of the Moon",
           "shortName": "Moon",
           "source": "PHB",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of the Moon",
-          "shortName": "Moon",
-          "source": "PHB",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of the Moon",
-          "shortName": "Moon",
-          "source": "XPHB",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of the Sea",
-          "shortName": "Sea",
-          "source": "XPHB",
-          "className": "Druid"
+          "className": "Druid",
+          "classSource": "PHB"
         },
         {
           "name": "Circle of the Shepherd",
           "shortName": "Shepherd",
           "source": "XGE",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of the Shepherd",
-          "shortName": "Shepherd",
-          "source": "XGE",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of the Stars",
-          "shortName": "Stars",
-          "source": "XPHB",
-          "className": "Druid"
+          "className": "Druid",
+          "classSource": "PHB"
         },
         {
           "name": "Circle of Wildfire",
           "shortName": "Wildfire",
           "source": "TCE",
-          "className": "Druid"
-        },
-        {
-          "name": "Circle of Wildfire",
-          "shortName": "Wildfire",
-          "source": "TCE",
-          "className": "Druid"
+          "className": "Druid",
+          "classSource": "PHB"
         }
       ]
     },
@@ -1413,151 +1033,71 @@
           "name": "Arcane Archer",
           "shortName": "Arcane Archer",
           "source": "XGE",
-          "className": "Fighter"
-        },
-        {
-          "name": "Arcane Archer",
-          "shortName": "Arcane Archer",
-          "source": "XGE",
-          "className": "Fighter"
-        },
-        {
-          "name": "Banneret",
-          "shortName": "Banneret",
-          "source": "FRHoF",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Battle Master",
           "shortName": "Battle Master",
           "source": "PHB",
-          "className": "Fighter"
-        },
-        {
-          "name": "Battle Master",
-          "shortName": "Battle Master",
-          "source": "PHB",
-          "className": "Fighter"
-        },
-        {
-          "name": "Battle Master",
-          "shortName": "Battle Master",
-          "source": "XPHB",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Cavalier",
           "shortName": "Cavalier",
           "source": "XGE",
-          "className": "Fighter"
-        },
-        {
-          "name": "Cavalier",
-          "shortName": "Cavalier",
-          "source": "XGE",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Champion",
           "shortName": "Champion",
           "source": "PHB",
-          "className": "Fighter"
-        },
-        {
-          "name": "Champion",
-          "shortName": "Champion",
-          "source": "PHB",
-          "className": "Fighter"
-        },
-        {
-          "name": "Champion",
-          "shortName": "Champion",
-          "source": "XPHB",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Echo Knight",
           "shortName": "Echo Knight",
           "source": "EGW",
-          "className": "Fighter"
-        },
-        {
-          "name": "Echo Knight",
-          "shortName": "Echo Knight",
-          "source": "EGW",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Eldritch Knight",
           "shortName": "Eldritch Knight",
           "source": "PHB",
-          "className": "Fighter"
-        },
-        {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB",
-          "className": "Fighter"
-        },
-        {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "XPHB",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Psi Warrior",
           "shortName": "Psi Warrior",
           "source": "TCE",
-          "className": "Fighter"
-        },
-        {
-          "name": "Psi Warrior",
-          "shortName": "Psi Warrior",
-          "source": "TCE",
-          "className": "Fighter"
-        },
-        {
-          "name": "Psi Warrior",
-          "shortName": "Psi Warrior",
-          "source": "XPHB",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Purple Dragon Knight (Banneret)",
           "shortName": "Purple Dragon Knight (Banneret)",
           "source": "SCAG",
-          "className": "Fighter"
-        },
-        {
-          "name": "Purple Dragon Knight (Banneret)",
-          "shortName": "Purple Dragon Knight (Banneret)",
-          "source": "SCAG",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Rune Knight",
           "shortName": "Rune Knight",
           "source": "TCE",
-          "className": "Fighter"
-        },
-        {
-          "name": "Rune Knight",
-          "shortName": "Rune Knight",
-          "source": "TCE",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         },
         {
           "name": "Samurai",
           "shortName": "Samurai",
           "source": "XGE",
-          "className": "Fighter"
-        },
-        {
-          "name": "Samurai",
-          "shortName": "Samurai",
-          "source": "XGE",
-          "className": "Fighter"
+          "className": "Fighter",
+          "classSource": "PHB"
         }
       ]
     },
@@ -1647,148 +1187,74 @@
       },
       "subclasses": [
         {
-          "name": "Warrior of Mercy",
-          "shortName": "Mercy",
-          "source": "XPHB",
-          "className": "Monk"
-        },
-        {
-          "name": "Warrior of Shadow",
-          "shortName": "Shadow",
-          "source": "XPHB",
-          "className": "Monk"
-        },
-        {
-          "name": "Warrior of the Elements",
-          "shortName": "Elements",
-          "source": "XPHB",
-          "className": "Monk"
-        },
-        {
-          "name": "Warrior of the Open Hand",
-          "shortName": "Open Hand",
-          "source": "XPHB",
-          "className": "Monk"
-        },
-        {
           "name": "Way of Mercy",
           "shortName": "Mercy",
           "source": "TCE",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of Mercy",
-          "shortName": "Mercy",
-          "source": "TCE",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of Shadow",
           "shortName": "Shadow",
           "source": "PHB",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of Shadow",
-          "shortName": "Shadow",
-          "source": "PHB",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Ascendant Dragon",
           "shortName": "Ascendant Dragon",
           "source": "FTD",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Ascendant Dragon",
-          "shortName": "Ascendant Dragon",
-          "source": "FTD",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Astral Self",
           "shortName": "Astral Self",
           "source": "TCE",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Astral Self",
-          "shortName": "Astral Self",
-          "source": "TCE",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Drunken Master",
           "shortName": "Drunken Master",
           "source": "XGE",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Drunken Master",
-          "shortName": "Drunken Master",
-          "source": "XGE",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Four Elements",
           "shortName": "Four Elements",
           "source": "PHB",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Four Elements",
-          "shortName": "Four Elements",
-          "source": "PHB",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Kensei",
           "shortName": "Kensei",
           "source": "XGE",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Kensei",
-          "shortName": "Kensei",
-          "source": "XGE",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Long Death",
           "shortName": "Long Death",
           "source": "SCAG",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Long Death",
-          "shortName": "Long Death",
-          "source": "SCAG",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Open Hand",
           "shortName": "Open Hand",
           "source": "PHB",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Open Hand",
-          "shortName": "Open Hand",
-          "source": "PHB",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         },
         {
           "name": "Way of the Sun Soul",
           "shortName": "Sun Soul",
           "source": "XGE",
-          "className": "Monk"
-        },
-        {
-          "name": "Way of the Sun Soul",
-          "shortName": "Sun Soul",
-          "source": "XGE",
-          "className": "Monk"
+          "className": "Monk",
+          "classSource": "PHB"
         }
       ]
     },
@@ -1883,37 +1349,43 @@
           "name": "Order of the Avatar",
           "shortName": "Avatar",
           "source": "UATheMysticClass",
-          "className": "Mystic"
+          "className": "Mystic",
+          "classSource": "UATheMysticClass"
         },
         {
           "name": "Order of the Awakened",
           "shortName": "Awakened",
           "source": "UATheMysticClass",
-          "className": "Mystic"
+          "className": "Mystic",
+          "classSource": "UATheMysticClass"
         },
         {
           "name": "Order of the Immortal",
           "shortName": "Immortal",
           "source": "UATheMysticClass",
-          "className": "Mystic"
+          "className": "Mystic",
+          "classSource": "UATheMysticClass"
         },
         {
           "name": "Order of the Nomad",
           "shortName": "Nomad",
           "source": "UATheMysticClass",
-          "className": "Mystic"
+          "className": "Mystic",
+          "classSource": "UATheMysticClass"
         },
         {
           "name": "Order of the Soul Knife",
           "shortName": "Soul Knife",
           "source": "UATheMysticClass",
-          "className": "Mystic"
+          "className": "Mystic",
+          "classSource": "UATheMysticClass"
         },
         {
           "name": "Order of the Wu Jen",
           "shortName": "Wu Jen",
           "source": "UATheMysticClass",
-          "className": "Mystic"
+          "className": "Mystic",
+          "classSource": "UATheMysticClass"
         }
       ]
     },
@@ -2019,139 +1491,64 @@
           "name": "Oath of Conquest",
           "shortName": "Conquest",
           "source": "XGE",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Conquest",
-          "shortName": "Conquest",
-          "source": "XGE",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oath of Devotion",
           "shortName": "Devotion",
           "source": "PHB",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Devotion",
-          "shortName": "Devotion",
-          "source": "PHB",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Devotion",
-          "shortName": "Devotion",
-          "source": "XPHB",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oath of Glory",
           "shortName": "Glory",
           "source": "TCE",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Glory",
-          "shortName": "Glory",
-          "source": "TCE",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Glory",
-          "shortName": "Glory",
-          "source": "XPHB",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oath of Redemption",
           "shortName": "Redemption",
           "source": "XGE",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Redemption",
-          "shortName": "Redemption",
-          "source": "XGE",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oath of the Ancients",
           "shortName": "Ancients",
           "source": "PHB",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of the Ancients",
-          "shortName": "Ancients",
-          "source": "PHB",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of the Ancients",
-          "shortName": "Ancients",
-          "source": "XPHB",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oath of the Crown",
           "shortName": "Crown",
           "source": "SCAG",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of the Crown",
-          "shortName": "Crown",
-          "source": "SCAG",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of the Noble Genies",
-          "shortName": "Noble Genies",
-          "source": "FRHoF",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oath of the Watchers",
           "shortName": "Watchers",
           "source": "TCE",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of the Watchers",
-          "shortName": "Watchers",
-          "source": "TCE",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oath of Vengeance",
           "shortName": "Vengeance",
           "source": "PHB",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Vengeance",
-          "shortName": "Vengeance",
-          "source": "PHB",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oath of Vengeance",
-          "shortName": "Vengeance",
-          "source": "XPHB",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         },
         {
           "name": "Oathbreaker",
           "shortName": "Oathbreaker",
           "source": "DMG",
-          "className": "Paladin"
-        },
-        {
-          "name": "Oathbreaker",
-          "shortName": "Oathbreaker",
-          "source": "DMG",
-          "className": "Paladin"
+          "className": "Paladin",
+          "classSource": "PHB"
         }
       ]
     },
@@ -2272,127 +1669,57 @@
           "name": "Beast Master",
           "shortName": "Beast Master",
           "source": "PHB",
-          "className": "Ranger"
-        },
-        {
-          "name": "Beast Master",
-          "shortName": "Beast Master",
-          "source": "PHB",
-          "className": "Ranger"
-        },
-        {
-          "name": "Beast Master",
-          "shortName": "Beast Master",
-          "source": "XPHB",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         },
         {
           "name": "Drakewarden",
           "shortName": "Drakewarden",
           "source": "FTD",
-          "className": "Ranger"
-        },
-        {
-          "name": "Drakewarden",
-          "shortName": "Drakewarden",
-          "source": "FTD",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         },
         {
           "name": "Fey Wanderer",
           "shortName": "Fey Wanderer",
           "source": "TCE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Fey Wanderer",
-          "shortName": "Fey Wanderer",
-          "source": "TCE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Fey Wanderer",
-          "shortName": "Fey Wanderer",
-          "source": "XPHB",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         },
         {
           "name": "Gloom Stalker",
           "shortName": "Gloom Stalker",
           "source": "XGE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Gloom Stalker",
-          "shortName": "Gloom Stalker",
-          "source": "XGE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Gloom Stalker",
-          "shortName": "Gloom Stalker",
-          "source": "XPHB",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         },
         {
           "name": "Horizon Walker",
           "shortName": "Horizon Walker",
           "source": "XGE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Horizon Walker",
-          "shortName": "Horizon Walker",
-          "source": "XGE",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         },
         {
           "name": "Hunter",
           "shortName": "Hunter",
           "source": "PHB",
-          "className": "Ranger"
-        },
-        {
-          "name": "Hunter",
-          "shortName": "Hunter",
-          "source": "PHB",
-          "className": "Ranger"
-        },
-        {
-          "name": "Hunter",
-          "shortName": "Hunter",
-          "source": "XPHB",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         },
         {
           "name": "Monster Slayer",
           "shortName": "Monster Slayer",
           "source": "XGE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Monster Slayer",
-          "shortName": "Monster Slayer",
-          "source": "XGE",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         },
         {
           "name": "Swarmkeeper",
           "shortName": "Swarmkeeper",
           "source": "TCE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Swarmkeeper",
-          "shortName": "Swarmkeeper",
-          "source": "TCE",
-          "className": "Ranger"
-        },
-        {
-          "name": "Winter Walker",
-          "shortName": "Winter Walker",
-          "source": "FRHoF",
-          "className": "Ranger"
+          "className": "Ranger",
+          "classSource": "PHB"
         }
       ]
     },
@@ -2506,139 +1833,64 @@
           "name": "Arcane Trickster",
           "shortName": "Arcane Trickster",
           "source": "PHB",
-          "className": "Rogue"
-        },
-        {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB",
-          "className": "Rogue"
-        },
-        {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "XPHB",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Assassin",
           "shortName": "Assassin",
           "source": "PHB",
-          "className": "Rogue"
-        },
-        {
-          "name": "Assassin",
-          "shortName": "Assassin",
-          "source": "PHB",
-          "className": "Rogue"
-        },
-        {
-          "name": "Assassin",
-          "shortName": "Assassin",
-          "source": "XPHB",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Inquisitive",
           "shortName": "Inquisitive",
           "source": "XGE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Inquisitive",
-          "shortName": "Inquisitive",
-          "source": "XGE",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Mastermind",
           "shortName": "Mastermind",
           "source": "XGE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Mastermind",
-          "shortName": "Mastermind",
-          "source": "XGE",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Phantom",
           "shortName": "Phantom",
           "source": "TCE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Phantom",
-          "shortName": "Phantom",
-          "source": "TCE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Scion of the Three",
-          "shortName": "Scion of the Three",
-          "source": "FRHoF",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Scout",
           "shortName": "Scout",
           "source": "XGE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Scout",
-          "shortName": "Scout",
-          "source": "XGE",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Soulknife",
           "shortName": "Soulknife",
           "source": "TCE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Soulknife",
-          "shortName": "Soulknife",
-          "source": "TCE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Soulknife",
-          "shortName": "Soulknife",
-          "source": "XPHB",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Swashbuckler",
           "shortName": "Swashbuckler",
           "source": "XGE",
-          "className": "Rogue"
-        },
-        {
-          "name": "Swashbuckler",
-          "shortName": "Swashbuckler",
-          "source": "XGE",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         },
         {
           "name": "Thief",
           "shortName": "Thief",
           "source": "PHB",
-          "className": "Rogue"
-        },
-        {
-          "name": "Thief",
-          "shortName": "Thief",
-          "source": "PHB",
-          "className": "Rogue"
-        },
-        {
-          "name": "Thief",
-          "shortName": "Thief",
-          "source": "XPHB",
-          "className": "Rogue"
+          "className": "Rogue",
+          "classSource": "PHB"
         }
       ]
     },
@@ -2777,139 +2029,64 @@
           "name": "Aberrant Mind",
           "shortName": "Aberrant Mind",
           "source": "TCE",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Aberrant Mind",
-          "shortName": "Aberrant Mind",
-          "source": "TCE",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Aberrant Sorcery",
-          "shortName": "Aberrant",
-          "source": "XPHB",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Clockwork Sorcery",
-          "shortName": "Clockwork",
-          "source": "XPHB",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Clockwork Soul",
           "shortName": "Clockwork Soul",
           "source": "TCE",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Clockwork Soul",
-          "shortName": "Clockwork Soul",
-          "source": "TCE",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Divine Soul",
           "shortName": "Divine Soul",
           "source": "XGE",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Divine Soul",
-          "shortName": "Divine Soul",
-          "source": "XGE",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Draconic Bloodline",
           "shortName": "Draconic",
           "source": "PHB",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Draconic Bloodline",
-          "shortName": "Draconic",
-          "source": "PHB",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Draconic Sorcery",
-          "shortName": "Draconic",
-          "source": "XPHB",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Lunar Sorcery",
           "shortName": "Lunar",
           "source": "DSotDQ",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Lunar Sorcery",
-          "shortName": "Lunar",
-          "source": "DSotDQ",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Pyromancer (PSK)",
           "shortName": "Pyromancer (PSK)",
           "source": "PSK",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Pyromancer (PSK)",
-          "shortName": "Pyromancer (PSK)",
-          "source": "PSK",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Shadow Magic",
           "shortName": "Shadow",
           "source": "XGE",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Shadow Magic",
-          "shortName": "Shadow",
-          "source": "XGE",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Spellfire Sorcery",
-          "shortName": "Spellfire",
-          "source": "FRHoF",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Storm Sorcery",
           "shortName": "Storm",
           "source": "XGE",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Storm Sorcery",
-          "shortName": "Storm",
-          "source": "XGE",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         },
         {
           "name": "Wild Magic",
           "shortName": "Wild",
           "source": "PHB",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Wild Magic",
-          "shortName": "Wild",
-          "source": "PHB",
-          "className": "Sorcerer"
-        },
-        {
-          "name": "Wild Magic Sorcery",
-          "shortName": "Wild Magic",
-          "source": "XPHB",
-          "className": "Sorcerer"
+          "className": "Sorcerer",
+          "classSource": "PHB"
         }
       ]
     },
@@ -3049,136 +2226,67 @@
       },
       "subclasses": [
         {
-          "name": "Archfey Patron",
-          "shortName": "Archfey",
-          "source": "XPHB",
-          "className": "Warlock"
-        },
-        {
-          "name": "Celestial Patron",
-          "shortName": "Celestial",
-          "source": "XPHB",
-          "className": "Warlock"
-        },
-        {
-          "name": "Fiend Patron",
-          "shortName": "Fiend",
-          "source": "XPHB",
-          "className": "Warlock"
-        },
-        {
-          "name": "Great Old One Patron",
-          "shortName": "Great Old One",
-          "source": "XPHB",
-          "className": "Warlock"
-        },
-        {
           "name": "The Archfey",
           "shortName": "Archfey",
           "source": "PHB",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Archfey",
-          "shortName": "Archfey",
-          "source": "PHB",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Celestial",
           "shortName": "Celestial",
           "source": "XGE",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Celestial",
-          "shortName": "Celestial",
-          "source": "XGE",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Fathomless",
           "shortName": "Fathomless",
           "source": "TCE",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Fathomless",
-          "shortName": "Fathomless",
-          "source": "TCE",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Fiend",
           "shortName": "Fiend",
           "source": "PHB",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Fiend",
-          "shortName": "Fiend",
-          "source": "PHB",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Genie",
           "shortName": "Genie",
           "source": "TCE",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Genie",
-          "shortName": "Genie",
-          "source": "TCE",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Great Old One",
           "shortName": "Great Old One",
           "source": "PHB",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Great Old One",
-          "shortName": "Great Old One",
-          "source": "PHB",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Hexblade",
           "shortName": "Hexblade",
           "source": "XGE",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Hexblade",
-          "shortName": "Hexblade",
-          "source": "XGE",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Undead",
           "shortName": "Undead",
           "source": "VRGR",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Undead",
-          "shortName": "Undead",
-          "source": "VRGR",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         },
         {
           "name": "The Undying",
           "shortName": "Undying",
           "source": "SCAG",
-          "className": "Warlock"
-        },
-        {
-          "name": "The Undying",
-          "shortName": "Undying",
-          "source": "SCAG",
-          "className": "Warlock"
+          "className": "Warlock",
+          "classSource": "PHB"
         }
       ]
     },
@@ -3308,190 +2416,95 @@
       },
       "subclasses": [
         {
-          "name": "Abjurer",
-          "shortName": "Abjurer",
-          "source": "XPHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "Bladesinger",
-          "shortName": "Bladesinger",
-          "source": "FRHoF",
-          "className": "Wizard"
-        },
-        {
           "name": "Bladesinging",
           "shortName": "Bladesinging",
           "source": "TCE",
-          "className": "Wizard"
-        },
-        {
-          "name": "Bladesinging",
-          "shortName": "Bladesinging",
-          "source": "TCE",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "Chronurgy Magic",
           "shortName": "Chronurgy",
           "source": "EGW",
-          "className": "Wizard"
-        },
-        {
-          "name": "Chronurgy Magic",
-          "shortName": "Chronurgy",
-          "source": "EGW",
-          "className": "Wizard"
-        },
-        {
-          "name": "Diviner",
-          "shortName": "Diviner",
-          "source": "XPHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "Evoker",
-          "shortName": "Evoker",
-          "source": "XPHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "Graviturgy Magic",
           "shortName": "Graviturgy",
           "source": "EGW",
-          "className": "Wizard"
-        },
-        {
-          "name": "Graviturgy Magic",
-          "shortName": "Graviturgy",
-          "source": "EGW",
-          "className": "Wizard"
-        },
-        {
-          "name": "Illusionist",
-          "shortName": "Illusionist",
-          "source": "XPHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "Order of Scribes",
           "shortName": "Scribes",
           "source": "TCE",
-          "className": "Wizard"
-        },
-        {
-          "name": "Order of Scribes",
-          "shortName": "Scribes",
-          "source": "TCE",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Abjuration",
           "shortName": "Abjuration",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Abjuration",
-          "shortName": "Abjuration",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Conjuration",
           "shortName": "Conjuration",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Conjuration",
-          "shortName": "Conjuration",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Divination",
           "shortName": "Divination",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Divination",
-          "shortName": "Divination",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Enchantment",
           "shortName": "Enchantment",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Enchantment",
-          "shortName": "Enchantment",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Evocation",
           "shortName": "Evocation",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Evocation",
-          "shortName": "Evocation",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Illusion",
           "shortName": "Illusion",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Illusion",
-          "shortName": "Illusion",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Necromancy",
           "shortName": "Necromancy",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Necromancy",
-          "shortName": "Necromancy",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "School of Transmutation",
           "shortName": "Transmutation",
           "source": "PHB",
-          "className": "Wizard"
-        },
-        {
-          "name": "School of Transmutation",
-          "shortName": "Transmutation",
-          "source": "PHB",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         },
         {
           "name": "War Magic",
           "shortName": "War",
           "source": "XGE",
-          "className": "Wizard"
-        },
-        {
-          "name": "War Magic",
-          "shortName": "War",
-          "source": "XGE",
-          "className": "Wizard"
+          "className": "Wizard",
+          "classSource": "PHB"
         }
       ]
     }
