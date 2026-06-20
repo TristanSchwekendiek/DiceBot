@@ -3,7 +3,7 @@ const path = require("path");
 const { importDMVCharacter } = require("../dmvImporter");
 
 try {
-  const filePath = path.join(__dirname, "(Mari) Poka Dought-dmv.json");
+  const filePath = path.join(__dirname, "..", "(Mari) Poka Dought-dmv.json");
   const rawText = fs.readFileSync(filePath, "utf8");
   const rawData = JSON.parse(rawText);
 

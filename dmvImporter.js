@@ -319,7 +319,89 @@ totalLevel:
 return recalculateDerivedStats(importedProfile);
 }
 
+function mergeProfileDefaults(rawProfile) {
+  const defaults = JSON.parse(JSON.stringify(DEFAULT_PLAYER_PROFILE));
+  const source = rawProfile && typeof rawProfile === "object" ? rawProfile : {};
+
+  return {
+    ...defaults,
+    ...source,
+    hp: {
+      ...defaults.hp,
+      ...(source.hp || {}),
+    },
+    abilities: {
+      ...defaults.abilities,
+      ...(source.abilities || {}),
+    },
+    abilityModifiers: {
+      ...defaults.abilityModifiers,
+      ...(source.abilityModifiers || {}),
+    },
+    savingThrows: {
+      ...defaults.savingThrows,
+      ...(source.savingThrows || {}),
+    },
+    savingThrowProficiencies: {
+      ...defaults.savingThrowProficiencies,
+      ...(source.savingThrowProficiencies || {}),
+    },
+    skillProficiencies: {
+      ...defaults.skillProficiencies,
+      ...(source.skillProficiencies || {}),
+    },
+    skillExpertise: {
+      ...defaults.skillExpertise,
+      ...(source.skillExpertise || {}),
+    },
+    skills: {
+      ...defaults.skills,
+      ...(source.skills || {}),
+    },
+    spellSlots: {
+      ...defaults.spellSlots,
+      ...(source.spellSlots || {}),
+    },
+    spellcasting: {
+      ...defaults.spellcasting,
+      ...(source.spellcasting || {}),
+    },
+    deathSaves: {
+      ...defaults.deathSaves,
+      ...(source.deathSaves || {}),
+    },
+  };
+}
+
+function looksLikeDiceBotProfile(rawData) {
+  return Boolean(
+    rawData &&
+      typeof rawData === "object" &&
+      !Array.isArray(rawData) &&
+      !rawData.character &&
+      (rawData.characterName ||
+        rawData.abilities ||
+        rawData.classes ||
+        rawData.hp ||
+        rawData.spellcastingByClass)
+  );
+}
+
+function importDiceBotProfile(rawProfile) {
+  return recalculateDerivedStats(mergeProfileDefaults(rawProfile));
+}
+
+function importCharacterData(rawData) {
+  if (looksLikeDiceBotProfile(rawData)) {
+    return importDiceBotProfile(rawData);
+  }
+
+  return importDMVCharacter(rawData);
+}
+
 module.exports = {
   DEFAULT_PLAYER_PROFILE,
+  importCharacterData,
+  importDiceBotProfile,
   importDMVCharacter,
 };

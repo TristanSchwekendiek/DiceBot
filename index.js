@@ -9,7 +9,8 @@ const path = require("path");
 const GM_ROLE_ID = "1491277829055316039";
 const activeCombats = new Map();
 
-const { importDMVCharacter } = require("./dmvImporter");
+const { importCharacterData } = require("./dmvImporter");
+const { getBuilderData } = require("./utils/builderData");
 
 const {
   recalculateDerivedStats,
@@ -87,12 +88,40 @@ const bot = new Discord.Client({
 });
 
 const PREFIX = "!";
-const PORT = 3000;
+const PORT = Number(process.env.PORT || 3000);
 
 /* -------------------------------- App -------------------------------- */
 
+app.use(express.json({ limit: "5mb" }));
+app.use(express.static(path.join(__dirname, "public")));
+
 app.get("/", (req, res) => {
-  res.send("Hello world!");
+  res.redirect("/builder");
+});
+
+app.get("/builder", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "builder", "index.html"));
+});
+
+app.get("/api/builder-data", (req, res) => {
+  try {
+    res.json(getBuilderData());
+  } catch (error) {
+    console.error("Builder data failed:", error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.post("/api/builder/normalize-profile", (req, res) => {
+  try {
+    const rawProfile = req.body?.profile || req.body;
+    const profile = recalculateDerivedStats(rawProfile);
+    ensureLevelingState(profile);
+    res.json(profile);
+  } catch (error) {
+    console.error("Builder profile normalization failed:", error);
+    res.status(400).json({ error: error.message });
+  }
 });
 
 app.listen(PORT, () => {
@@ -563,7 +592,7 @@ async function handleImportCommand(message) {
     const rawText = await response.text();
     const rawData = JSON.parse(rawText);
 
-    const profile = importDMVCharacter(rawData);
+    const profile = importCharacterData(rawData);
 
     savePlayerProfile(message.author.id, profile);
 
@@ -4941,4 +4970,10 @@ bot.on("messageCreate", async (message) => {
 });
 /* ------------------------------ Login -------------------------------- */
 
-bot.login(process.env.token);
+if (process.env.NO_BOT_LOGIN === "1") {
+  console.log("Discord login skipped because NO_BOT_LOGIN=1.");
+} else if (process.env.token) {
+  bot.login(process.env.token);
+} else {
+  console.warn("Discord token missing; set token in .env or run with NO_BOT_LOGIN=1.");
+}

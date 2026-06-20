@@ -14775,9 +14775,285 @@
 					"type": "entries"
 				}
 			]
+		},
+		{
+			"name": "Skeleton",
+			"source": "DANDWIKI",
+			"page": 0,
+			"edition": "classic",
+			"creatureTypes": [
+				"undead"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 50,
+				"heightMod": "4d6",
+				"baseWeight": 15,
+				"weightMod": "1d4"
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Skeletons do not physically age after reanimation, though the magic sustaining them can eventually fail."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Skeletons tend toward neutrality, though many are chaotic or evil depending on their origin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Your height matches the body you had in life, but you weigh much less. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Magical sight lets you see in dim light within 60 feet as bright light and in darkness as dim light. You can discern color in darkness."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Restoring Limbs",
+					"entries": [
+						"If one of your limbs is detached or destroyed, you can use an action to attach a suitable replacement."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skeletal Nature",
+					"entries": [
+						"You are immune to disease, poison damage, and the {@condition poisoned} condition. You do not need to eat or breathe. Instead of sleeping, you spend 4 hours in an inactive state while remaining aware of your surroundings."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "False Appearance",
+					"entries": [
+						"As an action, you can collapse into a pile of bones. While motionless in this state, you are indistinguishable from ordinary bones, are {@condition prone}, and have a speed of 0."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead",
+					"entries": [
+						"Your creature type is undead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one language tied to your creator or origin."
+					]
+				}
+			]
 		}
 	],
 	"subrace": [
+		{
+			"name": "Giant Skeleton",
+			"source": "DANDWIKI",
+			"raceName": "Skeleton",
+			"raceSource": "DANDWIKI",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"ability": [
+				{
+					"str": 1,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 100,
+				"heightMod": "6d8",
+				"baseWeight": 120,
+				"weightMod": "4d4"
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Large",
+					"entries": [
+						"You are much larger than most skeletons. Your size is Large."
+					]
+				}
+			]
+		},
+		{
+			"name": "God Touched",
+			"source": "DANDWIKI",
+			"raceName": "Skeleton",
+			"raceSource": "DANDWIKI",
+			"page": 0,
+			"ability": [
+				{
+					"cha": 1,
+					"wis": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"religion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Imparted Knowledge",
+					"entries": [
+						"You gain proficiency in the Religion skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blessed Fortune",
+					"entries": [
+						"When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new result. You regain this trait after a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blessed Cantrip",
+					"entries": [
+						"You know one cantrip of your choice from the cleric spell list. Wisdom or Charisma is your spellcasting ability for it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Fluke",
+			"source": "DANDWIKI",
+			"raceName": "Skeleton",
+			"raceSource": "DANDWIKI",
+			"page": 0,
+			"ability": [
+				{
+					"cha": 1,
+					"int": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "choose",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"unseen servant"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"animate dead"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Magic Born",
+					"entries": [
+						"If dispel magic or a similar antimagic effect targets you, make a Constitution saving throw against the caster's spell save DC. On a failure, you fall {@condition unconscious}. You can repeat the save at the end of each of your turns to awaken."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Knowledge",
+					"entries": [
+						"You gain proficiency in the Arcana skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innate Magic",
+					"entries": [
+						"You know the {@spell mage hand} cantrip. At 3rd level, you can cast {@spell unseen servant} once with this trait, and at 5th level, you can cast {@spell animate dead} once with this trait. You regain expended uses when you finish a long rest. Intelligence or Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raised Minion",
+			"source": "DANDWIKI",
+			"raceName": "Skeleton",
+			"raceSource": "DANDWIKI",
+			"page": 0,
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1
+				}
+			],
+			"traitTags": [
+				"Natural Armor"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mindless",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strengthened Bones",
+					"entries": [
+						"When you are not wearing armor, your AC is 12 + your Dexterity modifier. You can use this natural armor if your worn armor would give you a lower AC, and shields apply normally."
+					]
+				}
+			]
+		},
 		{
 			"name": "Amonkhet",
 			"source": "PSA",

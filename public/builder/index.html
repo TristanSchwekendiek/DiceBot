@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DiceBot Character Builder</title>
+    <link rel="stylesheet" href="/builder/builder.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">DiceBot</p>
+          <h1>Character Builder</h1>
+        </div>
+        <div class="top-actions">
+          <button class="ghost-button" id="resetButton" type="button">Reset</button>
+          <button class="primary-button" id="exportButton" type="button">Export JSON</button>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <section class="builder-pane" aria-label="Character inputs">
+          <nav class="tabs" aria-label="Builder sections">
+            <button class="tab-button is-active" type="button" data-tab="identity">Identity</button>
+            <button class="tab-button" type="button" data-tab="abilities">Stats</button>
+            <button class="tab-button" type="button" data-tab="skills">Skills</button>
+            <button class="tab-button" type="button" data-tab="feats">Feats</button>
+            <button class="tab-button" type="button" data-tab="spells">Spells</button>
+            <button class="tab-button" type="button" data-tab="gear">Gear</button>
+          </nav>
+
+          <div class="tab-panel is-active" id="tab-identity">
+            <div class="form-grid two">
+              <label>
+                <span>Character</span>
+                <input id="characterName" autocomplete="off" />
+              </label>
+              <label>
+                <span>Player</span>
+                <input id="playerName" autocomplete="off" />
+              </label>
+              <label>
+                <span>Class</span>
+                <select id="classSelect"></select>
+              </label>
+              <label>
+                <span>Level</span>
+                <input id="levelInput" min="1" max="20" type="number" />
+              </label>
+              <label>
+                <span>Subclass</span>
+                <select id="subclassSelect"></select>
+              </label>
+              <label>
+                <span>Experience</span>
+                <input id="experienceInput" min="0" step="1" type="number" />
+              </label>
+              <label>
+                <span>Race</span>
+                <select id="raceSelect"></select>
+              </label>
+              <label>
+                <span>Subrace</span>
+                <select id="subraceSelect"></select>
+              </label>
+              <label>
+                <span>Background</span>
+                <input id="backgroundInput" autocomplete="off" />
+              </label>
+              <label>
+                <span>Alignment</span>
+                <input id="alignmentInput" autocomplete="off" />
+              </label>
+              <label>
+                <span>Armor Class</span>
+                <input id="acInput" min="1" max="40" type="number" />
+              </label>
+              <label>
+                <span>Max HP</span>
+                <input id="hpInput" min="1" max="999" type="number" />
+              </label>
+            </div>
+            <div class="inline-status" id="raceTraitSummary"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-abilities">
+            <div class="ability-toolbar">
+              <button class="ghost-button" data-preset="standard" type="button">Standard Array</button>
+              <button class="ghost-button" data-preset="balanced" type="button">Balanced</button>
+              <button class="ghost-button" data-preset="heroic" type="button">Heroic</button>
+            </div>
+            <div class="ability-grid" id="abilityGrid"></div>
+            <div class="bonus-strip" id="bonusStrip"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-skills">
+            <div class="save-grid" id="savingThrowGrid"></div>
+            <div class="skill-grid" id="skillGrid"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-feats">
+            <label class="toggle-row">
+              <input id="startingFeatToggle" type="checkbox" />
+              <span>Starting feat</span>
+            </label>
+            <div class="search-row">
+              <input id="featSearch" placeholder="Find feat" autocomplete="off" />
+              <select id="featSelect"></select>
+              <select id="featAbilitySelect"></select>
+              <button class="primary-button" id="addFeatButton" type="button">Add</button>
+            </div>
+            <div class="selected-list" id="selectedFeats"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-spells">
+            <div class="spell-meta" id="spellMeta"></div>
+            <div class="search-row">
+              <input id="spellSearch" placeholder="Find spell" autocomplete="off" />
+              <select id="spellLevelFilter"></select>
+            </div>
+            <div class="spell-list" id="spellList"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-gear">
+            <div class="gear-choices" id="gearChoices"></div>
+            <label>
+              <span>Custom gear</span>
+              <textarea id="customGear" rows="6"></textarea>
+            </label>
+          </div>
+        </section>
+
+        <aside class="preview-pane" aria-label="Character preview">
+          <div class="sheet-panel">
+            <div class="sheet-heading">
+              <div>
+                <p class="eyebrow">Live Sheet</p>
+                <h2 id="previewName">Unnamed Character</h2>
+              </div>
+              <span class="level-pill" id="previewLevel">Level 1</span>
+            </div>
+            <div class="stat-row" id="coreStats"></div>
+            <div class="score-grid" id="scorePreview"></div>
+            <div class="preview-block">
+              <h3>Features</h3>
+              <div id="featurePreview"></div>
+            </div>
+            <div class="preview-block">
+              <h3>Spells</h3>
+              <div id="spellPreview"></div>
+            </div>
+          </div>
+
+          <div class="json-panel">
+            <div class="json-heading">
+              <h2>Export</h2>
+              <button class="ghost-button" id="copyButton" type="button">Copy</button>
+            </div>
+            <pre id="jsonPreview">{}</pre>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <template id="pillTemplate">
+      <button class="pill" type="button"></button>
+    </template>
+
+    <script src="/builder/builder.js"></script>
+  </body>
+</html>
